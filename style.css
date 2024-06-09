@@ -85,12 +85,14 @@ button {
     flex-direction: column;
     gap: 60px;
     font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
 }
 
 .random-title {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -100,7 +102,6 @@ button {
     display: flex;
     justify-content: center;
     gap: 150px;
-    margin-bottom: 60px;
 }
 
 .funfact {
@@ -123,7 +124,26 @@ button {
 }
 
 .quote {
-    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actual-quote {
+
+    max-width: 500px;
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    font-weight: bolder;
 }
 
 .ending {
