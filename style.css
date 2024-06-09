@@ -147,9 +147,52 @@ button {
 }
 
 .ending {
+    display: flex;
     background-color: wheat;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    display: flex;
+    border:#3882F6;
+    border-radius: 6px;
+    background-color: #3882F6;
+    padding: 40px 50px;
+    color: white;
+    gap: 50px;
+}
+
+.signuptext {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 10px;
+}
+
+.signuptexttitle {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+
+.signuptextcontent {
+    display: flex;
+
+}
+
+#signupbutton {
+    border: 1px solid white;
+    padding: 2px 1em;
+    border-radius: 12px;
 }
 
 .footer{
+    display: flex;
+    padding: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
     background-color: darkolivegreen;
 }
